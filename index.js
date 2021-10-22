@@ -54,7 +54,6 @@ app.get('/users/:id', (req, res) => {
 app.get('/fruits', (req, res) => {
     res.send(['mango', 'oranges', 'banana'])
 })
-
 app.get('/fruits/mangoes/fazli', (req, res) => {
     res.send('Yummy Yummay tok marka fazli');
 })
